@@ -28,5 +28,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          pip install pytest
-          pytest tests/
+          python -m unittest discover -s tests
