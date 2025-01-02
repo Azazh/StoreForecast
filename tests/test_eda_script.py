@@ -1,7 +1,11 @@
+import os
+import sys
 import unittest
 from unittest.mock import patch
 import pandas as pd
 import numpy as np
+sys.path.append(os.path.abspath(".."))
+
 from src.eda_script import load_data, merge_data, handle_missing_values
 
 
